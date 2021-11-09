@@ -92,21 +92,23 @@ yarn build
 
 1. Descargar el repositorio completo de github
 
-2. Usar el comando "cd frontend" para navegar dentro de la carpeta de frontend (si no funciona prueben usando el
+2. Instalarse un venv (opcional)
+
+3. Correr el comando "pip install -r requirements.txt"
+
+4. Correr el comando "python manage.py migrate"
+
+5. Ir a otra terminal y usar el comando "cd frontend" para navegar dentro de la carpeta de frontend (si no funciona prueben usando el
 path completo)
 
-3. Correr el comando "npm install"
+6. Correr el comando "npm install"
 
-4. Correr el comando "npm install --save-dev style-loader"
+7. Correr el comando "npm install --save-dev style-loader"
 
-5. Correr el comando "npm run dev"
+8. Correr el comando "npm run dev"
 
-6. Ir a otra terminal y instalarse un venv (opcional)
+9. Usar ctrl+c para terminar con el empaquetamiento una vez finalizado.
 
-7. Correr el comando "pip install -r requirements.txt"
+10. Volver a la terminal de python y correr el comando "python manage.py runserver" para inicializar el enviroment
 
-8. Correr el comando "python manage.py migrate"
-
-9. Correr el comando "python manage.py runserver" para inicializar el enviroment
-
-10. Comporbar en el navegador la url "localhost:8000" (Puede usarse localhost o 127.0.0.1)
+11. Comporbar en el navegador la url "localhost:8000" (Puede usarse localhost o 127.0.0.1)
