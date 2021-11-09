@@ -86,6 +86,8 @@ pip install -r requirements.txt #Instala todos los modulos y versiones presentes
 
 nmp install #Instala todas las dependencia de React
 
+yarn build
+
 #Entorno funcionando
 
 1. Descargar el repositorio completo de github
@@ -93,16 +95,18 @@ nmp install #Instala todas las dependencia de React
 2. Usar el comando "cd frontend" para navegar dentro de la carpeta de frontend (si no funciona prueben usando el
 path completo)
 
-2. Correr el comando "npm install"
+3. Correr el comando "npm install"
 
-3. Correr el comando "npm run dev"
+4. Correr el comando "npm install --save-dev style-loader"
 
-4. Ir a otra terminal y instalarse un venv (opcional)
+5. Correr el comando "npm run dev"
 
-5. Correr el comando "pip install -r requirements.txt"
+6. Ir a otra terminal y instalarse un venv (opcional)
 
-6. Correr el comando "python manage.py migrate"
+7. Correr el comando "pip install -r requirements.txt"
 
-7. Correr el comando "python manage.py runserver" para inicializar el enviroment
+8. Correr el comando "python manage.py migrate"
 
-8. Comporbar en el navegador la url "localhost:8000" (Asegurarse que sea localhost y no 127.0.0.1)
+9. Correr el comando "python manage.py runserver" para inicializar el enviroment
+
+10. Comporbar en el navegador la url "localhost:8000" (Puede usarse localhost o 127.0.0.1)
